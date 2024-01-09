@@ -9,7 +9,14 @@ class StudentsController extends BaseController
         echo view('layouts/main');
         echo view('partials/sidebar');
         echo view('admin/data_mahasiswa');
+        echo view('footer/footer');
     }
 
+    public function view_addstudents(){
+        echo view('layouts/main');
+        echo view('partials/sidebar');
+        echo view('admin/add_mahasiswa');
+        echo view('footer/footer');
+    }
 
 }   

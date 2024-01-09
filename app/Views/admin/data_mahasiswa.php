@@ -2,7 +2,6 @@
 <div class="wrapper">
   
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
@@ -13,8 +12,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
@@ -37,8 +34,7 @@
                   </thead>
                   <tbody>
                  
-                  
-          
+              
                   <tr>
                     <td>Misc</td>
                     <td>Dillo 0.8</td>
@@ -81,42 +77,24 @@
                   </tfoot>
                 </table>
               </div>
-              <!-- /.card-body -->
             </div>
-            <!-- /.card -->
-
-            
-            <!-- /.card -->
           </div>
-          <!-- /.col -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container-fluid -->
     </section>
   
   </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.1.0
-    </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-  </footer>
+ 
+ 
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
 </div>
-<!-- ./wrapper -->
 
-<!-- jQuery -->
+
+
 <script src="../assets/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
+
 <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- DataTables  & Plugins -->
+
 <script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
@@ -129,11 +107,11 @@
 <script src="../assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="../assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="../assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-<!-- AdminLTE App -->
+
 <script src="../assets/dist/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
+
 <script src="../assets/dist/js/demo.js"></script>
-<!-- Page specific script -->
+
 <script>
   $(function () {
     $("#example1").DataTable({
@@ -152,4 +130,7 @@
   });
 </script>
 </body>
+
+
+
 </html>
